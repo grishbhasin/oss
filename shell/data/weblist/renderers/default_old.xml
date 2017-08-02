@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><renderer name="default" request="search" searchButtonLabel="Search" noResultFoundText="No result found" oneResultFoundText="1 result found" resultsFoundText="results found" facetWidth="200px" logEnabled="false" contentTypeField="contentBaseType" autoCompletionName="autocomplete" defaultJsp="SimpleHtml">
+<css>#oss-main{
+margin-top:20px;
+}
+.osscmnrdr { font-family: arial,sans-serif;
+font-size: 14px;
+height:30px;
+ }
+.ossinputrdr { font-size:inherit;
+ }
+.ossbuttonrdr { font-size:inherit;
+ }
+#oss-login { float:right;}
+#ossautocomplete { margin: 0;
+cursor: pointer;
+padding-left:3px;
+padding-right:3px;
+ }
+#ossautocompletelist { background-color: #FFFFFF;
+text-align: left;
+border-left: 1px solid #D3D3D3;
+border-bottom: 1px solid #D3D3D3;
+border-right: 1px solid #D3D3D3;
+ }
+.ossautocomplete_link { color:#222222;
+background-color: #FFFFFF;
+padding: 2px 6px 2px 6px;
+ }
+.ossautocomplete_link_over { color:#222222;
+background-color: #F5F5F5;
+padding: 2px 6px 2px 6px;
+ }
+.ossnumfound { padding-bottom:10px;
+padding-top:10px;
+ }
+.oss-paging { text-align: center;
+ }
+.oss-facet { padding: 1em;
+ }
+.ossfieldrdr1 { font-size:120%;
+ }
+.ossfieldrdr3 { color: #0E774A;
+ }</css>
+<field fieldName="title" replacePrevious="false" fieldType="SNIPPET" urlFieldName="url" urlDecode="false" widgetName="TEXT"/>
+<field fieldName="content" replacePrevious="false" fieldType="SNIPPET" urlFieldName="" urlDecode="false" widgetName="TEXT"/>
+<field fieldName="url" replacePrevious="false" fieldType="FIELD" urlFieldName="" urlDecode="false" widgetName="TEXT"/>
+<field fieldName="url" replacePrevious="false" fieldType="FIELD" urlFieldName="" urlDecode="false" widgetName="TOOLS"/>
+<auth/>
+</renderer>
